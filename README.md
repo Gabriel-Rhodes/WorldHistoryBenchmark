@@ -1,2 +1,1 @@
 # WorldHistoryBenchmark
-#World History Benchmark#
