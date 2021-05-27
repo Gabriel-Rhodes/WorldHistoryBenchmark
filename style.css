@@ -1,0 +1,99 @@
+body{
+  background-color: #E0EFDE;
+}
+
+a {
+  color: #E08D79;
+  text-decoration: none;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+    "projects, bugs, solutions";
+  background-color: #B3F2DD;
+  align-items: center;
+  justify-items: center;
+  height: 10vh;
+  width: 100%;
+  min-height: 50px;
+}
+
+.nav-div {
+
+}
+
+.nav-link {
+  font-family: Inter, monospace;
+  font-size: 24px;
+  text-align: center;
+  color: #A882DD;
+  text-decoration: none;
+}
+
+#title {
+  width: 90%;
+  margin: auto;
+  padding: 3vh;
+  text-align: center;
+  font-size: 30px;
+  font-family: Raleway, monospace;
+  color: #49416D;
+}
+
+#title-img {
+  width: 80vw;
+  margin: 0 0 0 9vw;
+  animation: fade-in 1.5s;
+  animation-timing-function: ease-out;
+}
+
+.project-img {
+  width: 80vw;
+  margin: 0 0 0 9vw;
+  animation: fade-in 1.5s;
+  animation-timing-function: ease-out;
+}
+
+
+@keyframes fade-in{
+  from {
+    opacity: 1%;
+    margin-top: 100vh;
+  }
+  to {
+    opacity: 100%;
+    margin-top: 0vh;
+  }
+}
+
+.description {
+  text-align: left;
+  font-family: Inter, monospace;
+  margin: auto;
+  width: 70%;
+  color: #49416D;
+}
+
+.example-text {
+  width: 50%;
+  margin-left: 25%;
+  font-size: 44px;
+}
+
+.solutions-text {
+  width: 71.43%;
+  margin-left: 14.36%;
+  font-size: 44px;
+}
+
+#bibliography {
+  text-align: left;
+  font-family: Inter, monospace;
+  margin: auto;
+  width: 70%;
+}
